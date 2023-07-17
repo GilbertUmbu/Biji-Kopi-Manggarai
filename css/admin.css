@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 20px;
+    background-color: #CD853F;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  th {
+    background-color: #7da787ef;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px; /* Menambahkan jarak ke bawah */
+  }
+
+  .back-link i {
+    margin-right: 5px;
+  }
+
+  table {
+    margin-bottom: 20px; /* Menambahkan jarak ke bawah */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+}
